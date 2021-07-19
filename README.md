@@ -1,2 +1,2 @@
-# Faktury-Application
-Example Faktury Application in Laravel with Boostrap Templates
+# Invoices-Application
+Example Invoices Application in Laravel with Boostrap Templates
