@@ -2,9 +2,38 @@
 Example Invoices Application in Laravel with Boostrap Templates
 
 # Open Application - Step by Step
-1.Clone Application
-2.Copy .env.example -> .env
-3.Create database
-4.Configure databse in .env files
-4.Open Application => php artisan serve with Command Line
 
+Clone Application
+
+```
+git clone https://github.com/cuma561/Invoices-Application.git
+```
+
+Create Database
+
+Cd project and run composer install
+
+```
+cd InvoiceApplication
+composer install
+
+```
+Add .env file to root directory.
+
+```
+see .env.example file
+
+```
+Migrate tables
+
+````
+php artisan migrate
+
+````
+
+Start Server
+
+````
+php artisan serve
+
+````
