@@ -16,24 +16,20 @@ Cd project and run composer install
 ```
 cd InvoiceApplication
 composer install
-
 ```
 Add .env file to root directory.
 
 ```
-see .env.example file
-
+copy.env.example .env
 ```
 Migrate tables
 
 ````
 php artisan migrate
-
 ````
 
 Start Server
 
 ````
 php artisan serve
-
 ````
